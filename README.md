@@ -20,10 +20,36 @@ def max_marks(marks):
     return marks[-1]
     
 ```
+```python
+''' 
+Program to find the maximum marks using the list method max().
+Developed by:jegadeesh
+RegisterNumber: 22004355
+'''
+def max_marks(marks):
+    large =max(marks)
+    return large
+```
+```python
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by:jegadeesh
+RegisterNumber: 22004355
+'''
+def max_marks(list1):
+    max1 = list1[0]
+    for i in list1:
+        if i >= max1:
+            max1 = i
+    return max1
+        
+```
 ## Sample Input and Output 
 
 ## Output:
 ![OUTPUT](outy.png)
+![OUTPUT](p0.png)
+![OUTPUT](lk.png)
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
